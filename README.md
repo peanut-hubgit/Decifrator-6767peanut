@@ -52,8 +52,18 @@ Não há framework ou etapa de compilação.
 
 ```text
 .
-├── Index.html   # Aplicação completa: estrutura, estilos e lógica
-└── README.md    # Documentação do projeto
+├── Index.html                 # Aplicação completa
+├── assets/
+│   └── icon.svg               # Favicon vetorial
+├── .github/
+│   ├── ISSUE_TEMPLATE/         # Modelos para issues
+│   └── PULL_REQUEST_TEMPLATE.md
+├── README.md                   # Documentação principal
+├── LICENSE                     # Licença MIT
+├── SECURITY.md                 # Política de segurança
+├── CONTRIBUTING.md             # Guia de contribuição
+├── CODE_OF_CONDUCT.md          # Código de conduta
+└── .gitignore                  # Arquivos ignorados pelo Git
 ```
 
 ## Como executar
@@ -82,4 +92,4 @@ O repositório contém uma implementação em página única. A documentação d
 
 ## Licença
 
-Nenhuma licença específica está declarada neste repositório. Consulte o proprietário antes de reutilizar, modificar ou distribuir o projeto.
+Este projeto está licenciado sob a **MIT License**. Consulte o arquivo [LICENSE](LICENSE) para os termos completos.
